@@ -1,0 +1,75 @@
+#include <iostream>
+#include <cmath>
+#include <Windows.h>
+using namespace std;
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
+
+
+	//int a, pi, l, g;
+	//a = 2;
+	//pi = 3.141592;
+	//g = 9.8;
+	//cout << "Введите l";
+	//cin >> l;
+	//float T = a * pi * sqrt(l / g);
+	//cout << "l = " << l << "\n";
+	//cout << "T = " << T;
+
+
+
+	//int a, b, c, D, x1, x2, x3;
+	//cout << "Введие a";
+	//cin >> a;
+	//cout << "Введие b";
+	//cin >> b;
+	//cout << "Введие c";
+	//cin >> c;
+	//D = pow(b, 2) - 4 * a * c;+
+	//cout << "a = " << a << "\n" << "b = " << b << "\n" << "c = " << c;
+	//cout << "\n" << "D = " << D;
+	//x1  =  (-b + sqrt(D)) / (2 * a);
+	//x2  =  (-b - sqrt(D)) / (2 * a);
+	//cout << "\n" << "x1" << x1;
+	//cout << "\n" << "x2" << x2;
+
+	
+
+	//int a, b, S, n;
+	//float p;
+	//cin >> S >> p >> n;
+	//cout << "S = " << S << "\n" << "p = " << p << "\n" << "n = " << n;
+	//cout << "\n" << "Ответ = " << S * pow((1 + p / 100.0), n) << endl;
+	//const float pi = 3.141592;
+	//int a = 60;
+	//int c = 180.0;
+	//float b = (a * pi) / c;
+	//cout << " sin = " << sin(b) << " cos = " << cos(b) << " рад = " << b << endl;
+
+
+
+	//int a = 4
+	//float b = 3;
+	//int r = 10;
+	//int S = pow(r, 2) * pi;
+	//int c = sqrt(pow(a, 2) + (pow(b, 2)));
+	//int p = (a + b + c) / 2;
+	//int S = sqrt(p * (p - a) * (p - b) * (p - c));
+	//cout << "p= " << p << "S= " << S;
+
+
+
+	//float b = 9.4790;
+	//cout << "Квадрат числа a: " << pow(a, 2) << endl;
+	//cout << "Квадрат корень числа a: " << sqrt(a) << endl;
+	//cout << "Кубический корень числа a: " << cbrt(a) << endl;
+	//cout << "Модулий int числа a: " << abs(a) << endl;
+	//cout << "округление до целого : " << round(b) << endl;
+	//cout << "Округление вниз: " << floor(b) << endl;
+	//cout << "Округление вверх: " << ceil(b) << endl;
+	//cout << sin(a) << cos(a) << log10(a);
+
+}
