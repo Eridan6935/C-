@@ -5,6 +5,47 @@
 using namespace std;
 int main()
 {
+//double m, r;
+//float pi = 3.141592;
+//m = 1.67e-27;
+//r = 0.84e-15;
+//double  V = 4 / 3 * pi * r;
+//double  p = m / V;
+//cout << "Плотность ядра атома = " << p;
+
+
+
+//double r = 384400;
+//double long v = r * pow(10, 6);
+//cout << "Растояние до луны в милиметрах = " << v;
+
+
+
+//int m;
+//unsigned long long c = pow(300000000, 2);
+//cout << "Введите массу = ";
+//cin >> m;
+//double long E = m * c;
+//cout << "Энергия = " << E;
+
+
+
+//double w = 5.3e-11;
+//double long n = w * pow(10, 9);
+//cout << "Размер атомв водорода в нанометрах = " << n;
+
+
+
+//double m = 5.97e24;
+//unsigned long long g = 5.97e24 * 1000;
+//cout << " Масса земли в граммах = " << g;
+
+
+
+/*unsigned long long v = 300000000;
+double t = 31536000;
+unsigned long long a = v * t;
+cout << "растояние которое пройдет частичка света = " << a;*/
 	
 
 
