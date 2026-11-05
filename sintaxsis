@@ -1,11 +1,137 @@
 #include <iostream>
 #include <cmath>
-#include <Windows.h>
+#include <limits>
+//#include <Windows.h>
 using namespace std;
 int main()
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+	
+
+
+
+	//long long ll = 9 * pow(10, 18);
+	//unsigned long long ull = 18 * pow(10, 18);
+	//float f = 9.65344 * pow(10, 30);
+	//double d = pow(10, 308);
+	//double ld = 1.654674656 * pow(10, 308);
+	//long double uld = 1.654674656 * pow(10, 308);
+	//cout << numeric_limits<double>::max() << endl;
+	//cout << numeric_limits<double>::min() << endl;
+	//cout << numeric_limits<long double>::max() << endl;
+	//cout << numeric_limits<long double>::min() << endl;
+	//cout << numeric_limits<long long>::max() << endl;
+	//cout << numeric_limits<long long>::min() << endl;
+	//cout << numeric_limits<float>::max() << endl;
+	//cout << numeric_limits<float>::min() << endl;
+	//cout << numeric_limits<unsigned long>::max() << endl;
+	//cout << numeric_limits<unsigned long>::min() << endl;
+	//cout << sizeof(ld) << "" << sizeof(d) << "" << sizeof(ll);
+	
+	
+
+	//int n;
+	//cin >> n;
+	//unsigned long long fact = 1;
+	//for (int i = 1; i <= n; ++i)
+	//{
+	//	fact = fact * i;
+	//}
+	//cout << n << "!= " << fact -1;
+	
+
+	//SetConsoleCP(1251);
+	//SetConsoleOutputCP(1251);
+
+
+
+	// целочисленные переменные 
+	//short s = 32000;
+	//int b = 2100000000;
+	//long l = 4200000000;
+	//long long ll = pow(10, 18);
+	//unsigned int ui = 2100000000;
+	////дробные переменные
+	//double a = 1000.1234567890;
+	//float f = 14.12345;
+	////текстовые переменные
+	//string str = "hello";
+	//char cc = 'a';
+	//char c = 64; 
+	////логические переменные
+	//bool d = TRUE; 
+	////инные переменные
+	//auto au = "text";
+	//const double pi = 3.141592;
+	/*cout << "Размер str = " << sizeof(str) << endl;
+	cout << "Размер short = " << sizeof(short) << endl;
+	cout << "Размер long = " << sizeof(long) << endl;
+	cout << "Размер long long = " << sizeof(long long) << endl;
+	cout << "Размер unsigned = " << sizeof(unsigned) << endl;
+	cout << "Размер double = " << sizeof(double) << endl;
+	cout << "Размер float = " << sizeof(float) << endl;
+	cout << "Размер string = " << sizeof(string) << endl;
+	cout << "Размер char = " << sizeof(char) << endl;
+	cout << "Размер bool = " << sizeof(bool) << endl;
+	cout << "Размер auto = " << sizeof(au) << endl;
+	cout << "Размер const = " << sizeof(pi) << endl;
+	cout << "Размер int = " << sizeof(int) << endl;*/
+
+
+
+
+	//int a, b, y;
+	//int f = 180;
+	//float const pi = 3.141592;
+	//float c;
+	//float d;
+	//cout << "Сторона a ";
+	//cin >> a;
+	//cout << "Сторона b ";
+	//cin >> b;
+	//cout << "Угол y ";
+	//cin >> y;
+	//d = y * pi / f;
+	//cout << " рад = " << d << endl;
+	//c = sqrt(pow(a, 2) + pow(b, 2) - 2 * a * b * cos(d));
+	//cout << "Сторона c = " << c;
+
+
+
+
+	//int a;
+	//cout << "Введите число ";
+	//cin >> a;
+	//cout << "Число a =  " << a << endl;
+	//cout << "Логарифм " << log2(a) << endl;
+	
+
+
+
+	//int x;
+	//cout << "Введите x ";
+	//cin >> x;
+	//cout << "Квадратный корень х = " << sqrt(x) << endl;
+	//cout << "х в 5 степени = " << pow(x, 5) << endl;
+	//cout << "Квадратный корень по модулю х = " << sqrt(abs(x)) << endl;
+
+
+
+	//int x1, x2, y1, y2;
+	//float b;
+	//cout << "Введите x1: ";
+	//cin >> x1;
+	//cout << "Введите y1: ";
+	//cin >> y1;
+	//cout << "Введите x2: ";
+	//cin >> x2;
+	//cout << "Введите y2: ";
+	//cin >> y2;
+	//b = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+	//cout << "\nВы ввели координаты:" << endl;
+	//cout << "Точка 1: (" << x1 << ", " << y1 << ")" << endl;
+	//cout << "Точка 2: (" << x2 << ", " << y2 << ")" << endl;
+	//cout << b  << endl;
+
 
 
 
@@ -71,5 +197,10 @@ int main()
 	//cout << "Округление вниз: " << floor(b) << endl;
 	//cout << "Округление вверх: " << ceil(b) << endl;
 	//cout << sin(a) << cos(a) << log10(a);
+	//cout << round(a) << endl - округление
+	//cout << cil(a) << endl - округление в большую сторону 
+	//cout << floor(a) - округление к меньшему целому числу
+	//cout << log10(b) - логарифм также есть просто log(любое число)
+	//cout << log(exp(6))
 
 }
