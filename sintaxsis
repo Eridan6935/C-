@@ -1,52 +1,1124 @@
+// ConsoleApplication2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+//
+
 #include <iostream>
-#include <cmath>
+#include <ctime>
 #include <limits>
-//#include <Windows.h>
+#include <cctype>
+#include <Windows.h>
 using namespace std;
 int main()
 {
-//double m, r;
-//float pi = 3.141592;
-//m = 1.67e-27;
-//r = 0.84e-15;
-//double  V = 4 / 3 * pi * r;
-//double  p = m / V;
-//cout << "Плотность ядра атома = " << p;
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	srand(time(0));
+	for (int i = 0; i < 1000; i++)
+	{
+		i++;
+	}
 
 
 
-//double r = 384400;
-//double long v = r * pow(10, 6);
-//cout << "Растояние до луны в милиметрах = " << v;
+	//int s = rand() % 101;
+	//int g;
+
+	//while (true)
+	//{
+	//	cout << "Введи число от 0 до 100: ";
+	//	cin >> g;
+	//	if (g != s)continue;
+	//	cout << "Угадал" << endl; break;
+	//}
 
 
 
-//int m;
-//unsigned long long c = pow(300000000, 2);
-//cout << "Введите массу = ";
-//cin >> m;
-//double long E = m * c;
-//cout << "Энергия = " << E;
+	//for (int i = 2; i <= 10000; i++)
+	//{
+	//	bool p = true;
+	//	for (int j = 2; j * j <= i; j++)
+	//	{
+	//		if (i % j == 0)
+	//		{
+	//			p = false; break;
+	//		}
+	//	}
+	//	if (p) cout << i << " ";
+
+	//}
 
 
 
-//double w = 5.3e-11;
-//double long n = w * pow(10, 9);
-//cout << "Размер атомв водорода в нанометрах = " << n;
+	//const string correct = "Qqa6935";
+	//string password;
+
+	//do {
+	//	cout << "Введите пароль: ";
+	//	cin >> password;
+
+	//	if (password != correct) {
+	//		cout << "Неверный пароль, попробуйте ещё раз." << endl;
+	//	}
+	//} while (password != correct);
+
+	//cout << "Пароль принят! Доступ разрешён." << endl;
 
 
 
-//double m = 5.97e24;
-//unsigned long long g = 5.97e24 * 1000;
-//cout << " Масса земли в граммах = " << g;
+	//int b;
+	//int sum = 0;
+
+	//cout << "Введите числа (0 — завершить ввод):" << endl;
+
+	//do {
+	//	cin >> b;
+	//	sum += b;
+	//} while (b != 0);
+
+	//cout << "Сумма: " << sum << endl;
 
 
 
-/*unsigned long long v = 300000000;
-double t = 31536000;
-unsigned long long a = v * t;
-cout << "растояние которое пройдет частичка света = " << a;*/
+
+	//int a;
+	//cin >> a;
+	//for (int i = 1; i <= a; i++)
+	//{
+	//	for (int j = 0; j < a - i; j++)
+	//		cout << ' ';
+	//	for (int j = 0;j < 2 * i - 1; j++)
+	//		cout << '*';
+	//	cout << endl;
+	//}
+
+
+
+	//int a = 0;
+	//int b = 0;
+	//for (;;)
+	//{
+	//	cin >> a;
+	//	if (a < 0)break;
+	//	b += a;
+	//	cout << "Сумма = " << b << endl;
+	//}
+
+
+
+	//for (int a = 0; a <= 100; a++)
+	//{
+	//	if (a % 3 == 0) continue;
+	//	cout << a << " ";
+	//}
+		
+
+
+
+	//int a;
+	//cin >> a;
+	//for (int i = 1; i <= a; i++)
+	//{
+	//	for (int j = 0; j < i; j++)
+	//		cout << '*';
+	//	cout << endl;
+	//}
+
+
+
+	//int x;
+	//cin >> x;
+	//bool b = true;
+	//while (b)
+	//{
+	//	cin >> x;
+	//	switch (x)
+	//	{
+	//	case 1: cout << "Hello World"; break; b = false;
+	//	case 2: cout << "hello World"; break;
+	//	default: b = false;
+	//	}
+	//}
+
+
+
+	//for (int i = 1; i < 10000000; i++)
+	//{
+	//	if (i % 50000 == 0)
+	//	{
+	//		cout << i;
+	//		break;
+	//	}
+	//}
+
+
+
+	//for (int i = 2; i <= 100000; i++)
+	//{	int count = 0;
+	//	for (int j = 2; j < i; j++)
+	//	{
+	//		if (i % j == 0)
+	//		{
+	//			continue;
+	//		}
+	//		else { count++; }
+	//	}
+	//	if (count == 0) cout << i << endl;
+	//}	
+
+
+
+	//int j = 0;
+	//while (j < 10)
+	//{
+	//	cout << j;
+	//	j++;
+
+	//	if (j == 5)continue;
+	//}
+
+
+
+	//for (int i = 2; i <= 9; i++)
+	//{
+	//	for (int j = 2; j <= 9; j++)
+	//	{
+	//		cout << i << " * " << j << " = " << i * j << "\t";
+	//	}
+	//	cout <<"\t"<<i<< endl;
+	//}
+
+
+
+	//for (int a = 0; a <= 100; a++)
+	//{
+	//	if (a % 4 == 0)
+	//	{
+	//		cout << a << endl;
+	//	}
+	//}
+
+
+
+	//string str = "s t r i n g";
+	//for (int i = 0; i < str.length(); i++)
+	//{
+	//	cout << str[i] << "";
+	//}
 	
+	
+
+	/*for (int i = 0; i < 10; i++)*/ // for(инициализация, условие, шаг) {тело цыкла}
+	//int n;
+	//while (n < 10)
+	//{
+	//	n++;
+	//}
+	//int count = 0;
+	//for (int i = 0; i < 5; i++) // for(инициализация, условие, шаг) {тело цыкла}
+	//{
+	//	for (int j = 0; j < 5; j++)
+	//	{
+	//		count++;
+	//	}
+	//}
+	//cout << count;
+
+
+
+
+
+	/*string name;
+	int age;
+	string email;
+	string info;
+	do
+	{
+		cout << "Ваше имя: ";
+		cin >> name;
+	} while (name.length() >= 10 || !isupper(name[0]));
+	do
+	{
+		cout << "Введите ваш возраст: ";
+		cin >> age;
+	} while (age < 0 || age > 100);
+	do
+	{
+		cout << "Введите ваш email: ";
+		cin >> email;
+	} while (email.find('@') == string::npos);
+	do
+	{
+		cout << "Расскажите о себе (не боьше 100 слов):";
+		cin >> info;
+	} while (info.length() >= 100);
+	int c;
+	do
+	{
+		cout << "\n Имя" << name << endl;
+		cout << "Возраст " << age << endl;
+		cout << "Email " << email << endl;
+		cout << "Информация о ва с" << info << endl;
+
+		cout << "\n Нужны ли изменения?";
+		cout << "1 - Имя" << endl;
+		cout << "2 - Возраст" << endl;
+		cout << "3 - email" << endl;
+		cout << "4 - Информация о вас" << endl;
+		cout << "0 - Нет" << endl;
+		cin >> c;
+
+		switch (c)
+		{
+		case 1: 
+			do
+			{
+				cout << "Измененное имя: ";
+				cin >> name;
+			} while (name.length() >= 10 || !isupper(name[0]));
+		case 2:
+			do
+			{
+				cout << "Измененный возраст: ";
+				cin >> age;
+			} while (age < 0 || age > 100);
+		case 3:
+			do
+			{
+				cout << "Изменненый email: ";
+				cin >> email;
+			} while (email.find('@') == string::npos);
+		case 4:
+			do
+			{
+				cout << "Изменненная информация о вас:";
+				cin >> info;
+			} while (info.length() >= 100);
+		case 0: 
+			cout << "Нет" << endl; break;
+		}
+	} while (c != 0);*/
+
+
+
+
+	//int age;
+	//int choice;
+	//do
+	//{
+	//	int x = 0;
+	//	cout << "Возраст должен быть от 6 до 100 ";
+	//	cin >> age;
+	//} while (age < 6 || age > 100);
+	//do
+	//{
+	//	cout << "1 - задача 1 " << " 2 - задача 2 " << " 3 - задача 3 " ;
+	//	cin >> choice;
+	//} while (true);
+
+
+
+
+	//string str;
+	//cin >> str;
+	//int i = 0;
+	//while (i < str.length() -1)
+	//{
+	//	if (str[i] == 'a')
+	//	{
+	//		cout << "Да"; break;
+	//	}
+	//	i++;
+	//}
+
+
+
+
+	//int i = 2;
+	//while (i <= 1000) {
+	//	int n = 2;
+	//	while (i % n != 0) {
+	//		n++;
+	//	}
+	//	if (n == i) {
+	//		cout << i << " ";
+	//	}
+	//	i++;
+	//}
+
+
+
+	//int i = 0;
+	//while (i <= 1000)
+	//{
+	//	cout << i << endl;
+	//	i++;
+	//	if (i % 2 == 0)
+	//	{
+	//		cout << i;
+
+	//	}
+	//	i++;
+	//}
+
+
+
+	//int i = 0;
+	//int n;
+	//cin >> n;
+	//string str;
+	//str = "g";
+	//int age;
+	//cin >> age;
+	//while (age < 0 || age > 100)
+	//{
+	//	cout << "неправильно введен возраст";
+	//	cin >> age;
+	//}
+	//cout << "Ты ровный пацвнчик тебе - " << age << "красава";
+	//cin >> str;
+	//while (str.length() == 0 || str.length() > 7)
+	//{
+	//	cout << "Имя - " << str << " ты воняешь \n";
+	//	cout << "Имя  - " << str << "Возраст\n" << age;
+	//}
+
+
+
+	//bool b = TRUE;
+	//while (b)
+	//{
+	//	cout << "1 - Задача 1 \n 2 - Выход";
+	//	cin >> n;
+	//	switch (n)
+	//	{
+	//	case 1: cout << "Задача 1"; break;
+	//	case 2: b = FALSE;
+	//	}
+	//}
+	//while (str != "password")
+	//{
+	//	cin >> str;
+	//	i++;
+	//}
+	
+
+
+	// условие(True) - исполнение кода (True) - исполнение кода пока условие не false
+	//while (i <= n) //while (условие) (исполняемый код пока условие правда)
+	//{
+	//	cout << i << endl;
+	//	i++;
+	//}
+
+
+
+	//int a;
+	//std::cout << "Введите год: ";
+	//std::cin >> a;
+	//long b = (a % 4 == 0 && a % 100 != 0) || (a % 400 == 0);
+	//std::cout << a << (b ? " — високосный год." : " — не високосный год.") << std::endl;
+	//return 0;
+
+
+
+	//double a, b;
+	//char s;
+	//std::cout << "Введите выражение ";
+	//std::cin >> a >> s >> b;
+	//double c = (s == '+') ? (a + b) :
+	//	(s == '-') ? (a - b) :
+	//	(s == '*') ? (a * b) :
+	//	(s == '/') ? (b != 0 ? a / b : NAN) : NAN;
+	//if (std::isnan(c)) {
+	//	std::cout << "Ошибка неверный оператор или деление на ноль" << std::endl;
+	//}
+	//else {
+	//	std::cout << "Результат =  " << c << std::endl;
+	//}
+
+
+
+	//int a;
+	//double x, y, F;
+
+	//cout << "Выберите математическую функцию:" << endl;
+	//cout << "1. Натуральный логарифм (log)" << endl;
+	//cout << "2. Возведение в степень (pow)" << endl;
+	//cout << "3. Квадратный корень (sqrt)" << endl;
+	//cout << "4. Косинус (cos)" << endl;
+	//cout << "5. Синус (sin)" << endl;
+	//cout << "Ваш выбор (1-5): ";
+	//cin >> a;
+
+	//switch (a) {
+	//case 1:
+	//	cout << "Введите число x (больше 0): ";
+	//	cin >> x;
+	//	if (x > 0) {
+	//		F = log(x);
+	//		cout << "Результат: log(" << x << ") = " << F << endl;
+	//	}
+	//	else {
+	//		cout << "Ошибка: логарифм определен только для положительных чисел!" << endl;
+	//	}
+	//	break;
+
+	//case 2:
+	//	cout << "Введите основание (x): ";
+	//	cin >> x;
+	//	cout << "Введите показатель степени (y): ";
+	//	cin >> y;
+	//	F = pow(x, y);
+	//	cout << "Результат: " << x << "^" << y << " = " << F << endl;
+	//	break;
+
+	//case 3:
+	//	cout << "Введите число x (неотрицательное): ";
+	//	cin >> x;
+	//	if (x >= 0) {
+	//		F = sqrt(x);
+	//		cout << "Результат: sqrt(" << x << ") = " << F << endl;
+	//	}
+	//	else {
+	//		cout << "Ошибка: нельзя извлечь квадратный корень из отрицательного числа!" << endl;
+	//	}
+	//	break;
+
+	//case 4:
+	//	cout << "Введите угол в радианах (x): ";
+	//	cin >> x;
+	//	F = cos(x);
+	//	cout << "Результат: cos(" << x << ") = " << F << endl;
+	//	break;
+
+	//case 5:
+	//	cout << "Введите угол в радианах (x): ";
+	//	cin >> x;
+	//	F = sin(x);
+	//	cout << "Результат: sin(" << x << ") = " << F << endl;
+	//	break;
+
+	//default:
+	//	cout << "Неверный выбор! Пожалуйста, запустите программу заново и выберите число от 1 до 5." << endl;
+	//	break;
+	//}
+
+
+
+	/*int n;
+	cout << "Выберите автора \n";
+	cout << "1. Толстой\n";
+	cout << "2. Достоевский\n";
+	cout << "3. Пушкин\n";
+	cout << "4. Булгаков\n";
+	cout << "Ваш выбор: ";
+	cin >> n;
+
+	string b =
+		(n == 1) ? "Война и мир" :
+		(n == 2) ? "Преступление и наказание" :
+		(n == 3) ? "Евгений Онегин" :
+		(n == 4) ? "Мастер и маргарита" : "";
+
+	cout << b << endl;*/
+
+
+
+	//double a, b, c;
+
+	//cout << "Введите три числа: ";
+	//cin >> a >> b >> c;
+
+	//cout << "Числа в порядке возрастания: ";
+
+	//if (a <= b && b <= c) {
+	//	cout << a << " " << b << " " << c;
+	//}
+	//else if (a <= c && c <= b) {
+	//	cout << a << " " << c << " " << b;
+	//}
+	//else if (b <= a && a <= c) {
+	//	cout << b << " " << a << " " << c;
+	//}
+	//else if (b <= c && c <= a) {
+	//	cout << b << " " << c << " " << a;
+	//}
+	//else if (c <= a && a <= b) {
+	//	cout << c << " " << a << " " << b;
+	//}
+	//else {
+	//	cout << c << " " << b << " " << a;
+	//}
+
+	//cout << endl
+
+
+
+	//double a, b;
+	//cout << "Введите первое число: ";
+	//cin >> a;
+	//cout << "Введите второе число: ";
+	//cin >> b;
+
+	//if (a > b) {
+	//	cout << "Наибольшее число: " << a << endl;
+	//}
+	//else if (b > a) {
+	//	cout << "Наибольшее число: " << b << endl;
+	//}
+	//else {
+	//	cout << "Оба числа равны." << endl;
+
+
+
+	/*double c;
+	cout << "Введите число: ";
+	cin >> c;
+	if (c > 0 && c < 100) {
+		cout << "Число входит в диапазон: " << c << endl;
+	}
+	else {
+		cout << "Число не входит в диапазон (0; 100)." << endl;
+	}
+*/
+
+
+
+	//long long n = 31536000LL;
+	//long long h = n * 1000000000LL;
+
+	//cout << "1 год в секундах: " << n << " с" << endl;
+	//cout << "1 год в наносекундах: " << h << " нс" << endl << endl;
+
+	//double g = 6.674e-11;       
+	//double m1 = 5.97e24;     
+	//double m2 = 5.97e24;     
+	//double r = 1.496e11;        
+
+	//double force = (g * m1 * m2) / (r * r);
+
+	//cout << "Гравитационная сила (F) = " << force << " Н" << endl;
+
+
+
+	/*int v;
+	cout << "Выберите номер задания :\n";
+	cout << "1. Проверка числа \n";
+	cout << "2. Выбор автора \n";
+	cout << "3. Тернарный оператор\n";
+	cout << "Ваш выбор: ";
+	cin >> v;
+
+	switch (v) {
+	case 1: 
+	{
+		int a;
+		cout << "Введите число: ";
+		cin >> a;
+
+		if (a % 10 == 0)
+		{
+			cout << "Является степенью 10" << endl;
+		}
+		else {
+			cout << "Не является степенью 10" << endl;
+		}
+		break;
+	}
+
+	case 2: {
+		int n;
+		cout << "Выберите автора:\n";
+		cout << "1. Толстой\n";
+		cout << "2. Достоевский\n";
+		cout << "3. Пушкин\n";
+		cout << "4. Булгаков\n";
+		cout << "5. Гоголь\n";
+		cout << "Ваш выбор: ";
+		cin >> n;
+
+		switch (n)
+		{
+		case 1:
+			cout << "Война и мир" << endl;
+			break;
+		case 2:
+			cout << "Преступление и наказание" << endl;
+			break;
+		case 3:
+			cout << "Евгений Онегин" << endl;
+			break;
+		case 4:
+			cout << "Мастер и Маргарита" << endl;
+			break;
+		case 5:
+			cout << "Мертвые души" << endl;
+			break;
+		default:
+			cout << "Нет такого автора" << endl;
+			break;
+		}
+		break;
+	}
+
+	case 3: 
+	{
+		int n;
+		cout << "Выберите автора \n";
+		cout << "1. Толстой\n";
+		cout << "2. Достоевский\n";
+		cout << "3. Пушкин\n";
+		cout << "4. Булгаков\n";
+		cout << "5. Гоголь\n";
+		cout << "Ваш выбор: ";
+		cin >> n;
+
+		string b =
+			(n == 1) ? "Война и мир" :
+			(n == 2) ? "Преступление и наказание" :
+			(n == 3) ? "Евгений Онегин" :
+			(n == 4) ? "Мастер и маргарита" :
+			(n == 5) ? "Мертвые души" : "";
+		cout << b << endl;
+
+
+		int g, f;
+		cout << "Введите число " << endl;
+		string(k);
+		f = 10;
+		cin >> f;
+		k = (g % f == 0) ? "Является" : "Не является";
+		break;
+	}
+
+	default:
+		cout << "Неверный номер задания!" << endl;
+		break;
+	}*/
+
+	//int a;
+	//cout << "Введите балл a = ";
+	//cin >> a;
+	//if (a < 60)
+	//{
+	//	cout << "2";
+	//}
+	//else if (a <= 79)
+	//{
+	//	cout << "3";
+	//}
+	//else if (a <= 89)
+	//{
+	//	cout << "4";
+	//}
+	//else if (a > 89 && a < 101)
+	//{
+	//	cout << "5";
+	//}
+	//else
+	//	cout << "Не верный ввод";
+	
+
+
+
+	/*SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
+	int n;
+
+	cout << "Выберите автора:\n";
+	cout << "1 - Достоевский\n";
+	cout << "2 - Лермонтов\n";
+	cout << "3 - Пушкин\n";
+	cin >> n;
+
+	cout << (n == 1 ?
+		"Автор: Достоевский\n"
+		"Книга 1 - Преступление и наказание\n"
+		"Книга 2 - Братья Карамазовы\n"
+		"Книга 3 - Идиот" :
+
+		n == 2 ?
+		"Автор: Лермонтов\n"
+		"Книга 1 - Песня про купца Калашникова\n"
+		"Книга 2 - Герой нашего времени\n"
+		"Книга 3 - Мцыри" :
+
+		n == 3 ?
+		"Автор: Пушкин\n"
+		"Книга 1 - Евгений Онегин\n"
+		"Книга 2 - Капитанская дочка\n"
+		"Книга 3 - Пиковая дама" :
+
+		"Неверный выбор!"
+		) << endl;*/
+
+
+
+
+	/*int a, d, c;
+	string b;
+	cin >> a;
+	d = 0;
+	c = 100;
+	b = (a > d) && (a < c)*/
+
+
+
+
+	//int a, b;
+	//cin >> a >> b;
+	//int min = (a > b) ? b : a;
+	//cout << "Наименьшоет число = " << min;
+
+
+
+//	int a, b;
+//	string c = "hello world";
+//	cin >> a >> b;
+//	if (a > b)
+//	{
+//		int c;
+//		cin >> c;
+//		cout << a;
+//	}
+//	else
+//		cout << b;
+//	string d = 
+//(a == 0 && a == 3 || a == 4) ? "Задание 1" ://(условие) значение при True: значение при False
+//(a == 1) ? "Задание 2" :
+//(a == 2) ? "Заданеи 3" : "0";// 0 - заглушка для обезательно обработки с false
+//	int max = (a > b) ? a : b;
+
+
+
+	/*cout << (a > b) ? a : b;
+	cout << (a > b) ? a :
+			(a == 0) ? a : b;*/
+			
+
+
+
+
+	//int n, c;
+	//double balance = 100;
+	//double money;
+	//cout << "1 - Снять деньги\n";
+	//cout << "2 - Пополнить счет\n";
+	//cout << "3 - Информация о балансе\n";
+	//cout << "4 - магазин \n";
+	//cout << "\nВыберите действие: ";
+	//cin >> n;
+	//switch (n)
+	//{
+	//case 1:
+	//	cout << "Введите сумму для снятия: ";
+	//	cin >> money;
+	//	if (money <= 0)
+	//	{
+	//		cout << "Некорректная сумма!";
+	//	}
+	//	else if (money > balance)
+	//	{
+	//		cout << "Недостаточно средств!";
+	//	}
+	//	else
+	//	{
+	//		balance -= money;
+	//		cout << "Вы сняли: " << money << " руб.\n";
+	//		cout << "Остаток: " << balance << " руб.";
+	//	}
+	//	break;
+	//case 2:
+	//	cout << "Введите сумму пополнения: ";
+	//	cin >> money;
+	//	if (money <= 0)
+	//	{
+	//		cout << "Некорректная сумма!";
+	//	}
+	//	else
+	//	{
+	//		balance += money;
+	//		cout << "Счет пополнен!\n";
+	//		cout << "Новый баланс: " << balance << " руб.";
+	//	}
+	//	break;
+	//case 3:
+	//	cout << "Информация о балансе!:\n";
+	//	cout << "Ваш баланс: " << balance << " руб.";
+	//	break;
+	//case 4:
+	//cout << "Магазин!\n";
+	//cout << "Ваш баланс " << balance << "рубю";
+	//cout << "Выберите товар \n";
+	//cout << "1 хлеб (50 руб.) \n";
+	//cout << "2 млоко 1,5л (200 руб.) \n";
+	//cout << "3 яйца 10шт (150 руб.) \n";
+	//cout << "4 бананы 1кг(300 руб.) \n";
+	//cout << "5 вода 10л (130 руб.) \n";
+	//cout << "Ваш выбор \n";
+	//cin >> c;
+	//switch (c)
+	//{
+	//case 1:
+	//	money = 50;
+	//	cout << "Вы выбрали хлеб.\n";
+	//	break;
+
+	//case 2:
+	//	money = 200;
+	//	cout << "Вы выбрали молоко.\n";
+	//	break;
+
+	//case 3:
+	//	money = 150;
+	//	cout << "Вы выбрали яйца.\n";
+	//	break;
+
+	//case 4:
+	//	money = 300;
+	//	cout << "Вы выбрали бананы.\n";
+	//	break;
+
+	//case 5:
+	//	money = 130;
+	//	cout << "Вы выбрали воду.\n";
+	//	break;
+
+	//default:
+	//	cout << "Такого товара нет";
+	//	break;   
+	//}
+	//if ()
+
+
+	
+
+	
+
+	
+
+
+
+
+	//int a, b;
+	//char z;
+	//cin >> a >> z >> b;
+	//switch (z)
+	//{
+	//case '+': cout << a + b; break;
+	//case '^': cout << pow(a, b); break;
+	//case '/': cout << a / b; break;
+	//case '-': cout << a - b; break;
+	//case '*': cout << a * b; break;
+	//}
+
+
+
+	/*int a, b, z;
+	cout << "Выберите действие:\n";
+	cout << "1 - площадь квадрата\n";
+	cout << "2 - площадь круга\n";
+	cout << "3 - площадь треугольника\n";
+	cin >> z;
+	switch (z)
+	{
+	case 1:
+		cout << "Введите сторону квадрата: ";
+		cin >> a;
+		cout << "Площадь квадрата = " << pow(a, 2);
+		break;
+	case 2:
+		cout << "Введите радиус круга: ";
+		cin >> a;
+		cout << "Площадь круга = " << 3.14 * pow(a, 2);
+		break;
+	case 3:
+		cout << "Введите основание и высоту треугольника: ";
+		cin >> a >> b;
+		cout << "Площадь треугольника = " << 0.5 * a * b;
+		break;
+	default:
+		cout << "Неверный номер действия!";
+		break;
+	}*/
+
+
+	/*int n;
+	cout << "Выберите действие: \n 1 - сумма \n 2 - хелол ворлд \n и тд..";
+	cin >> n;
+	switch (n)
+	{
+	case 1: cin >> a >> b; cout << a + b; break;
+	case 2: cout << "Hello world!"; break;
+	case 1000: cout << "1000"; break;
+	default: cout << "Неверное значение, допустимы только 1, 2, 1000";
+	}
+	int a, b;
+	char z;
+	cin >> a >> z >> b;
+	switch (z)
+	{
+	case '+': cout << a + b; break;
+	case '^': cout << pow(a, b);
+	case '/': cout << a / b;
+	case '-': cout << a - b;
+	case '*': cout << a * b;
+	}
+	switch (n)
+	{
+	case 1: cout << "Задача 1 ...."; break;
+	case 2: cout << "Задача 2 ...."; break;
+	case 3: cout << "Задача 3 ...."; break;
+	case 4: cout << "Задача 4 ...."; break;
+
+	}*/
+
+
+
+	/*int a, b, c;
+
+	cout << "Введите сторону a = ";
+	cin >> a;
+
+	cout << "Введите сторону b = ";
+	cin >> b;
+
+	cout << "Введите сторону c = ";
+	cin >> c;
+
+	if (a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a)
+	{
+		cout << "Треугольник существует";
+	}
+	else
+	{
+		cout << "Треугольник не существует";
+	}*/
+
+
+
+	//int a, b;
+	//char c;
+	//cout << "Введите число a = ";
+	//cin >> a;
+	//cout << "Введите число b = ";
+	//cin >> b;
+	//cout << "Введите операцию (-, +, /, *):";
+	//cin >> c;
+	//if (c ==  '+'  )
+	//{
+	//	cout << "сумма = " << a + b << endl;
+	//}
+	//else if (c == '-')
+	//{
+	//	cout << "Вычетание = " << a - b << endl ;
+	//}
+	//else if (c == '/')
+	//{
+	//	if (b != 0) {
+	//		cout << "Деление = " << (double)a / b << endl;
+	//	}
+	//	else {
+	//		cout << "Ошибка: деление на ноль!" << endl;
+	//	}
+	//}
+	//else if (c == '*')
+	//{
+	//	cout << "Умножение = " << a * b << endl;
+	//}
+	//else 
+	//{
+	//	cout << "Ошибка: неизвестная операция" << endl;
+	//}
+
+
+
+	//int a, b, c;
+	//cout << "Введите число a = ";
+	//cin >> a;
+	//cout << "Введите начало диапазона b = ";
+	//cin >> b;
+	//cout << "Введите конец диапазона c = ";
+	//cin >> c;
+	//if (a >= b && a <= c)
+	//{
+	//	cout << "Число a находится в диапазоне от b до c";
+	//}
+	//else
+	//{
+	//	cout << "Число a не находится в диапазоне от b до c";
+	//}
+
+	
+
+
+	//int a;
+	//cout << "Введите число a = ";
+	//cin >> a;
+	//if (a < 50)
+	//{
+	//	cout << "2";
+	//}
+	//else if (a < 70)
+	//{
+	//	cout << "3";
+	//}
+	//else if (a <= 80)
+	//{
+	//	cout << "4";
+	//}
+	//else if (a <= 90)
+	//{
+	//	cout << "4";
+	//}
+	//else if (a > 90)
+	//{
+	//	cout << "5";
+	//}
+
+
+
+	//int a;
+	//cout << "Введите число a = ";
+	//cin >> a;
+	//if (a > 0)
+	//{
+	//	cout << "число положительное";
+	//}
+	//else if (a < 0)
+	//{
+	//	cout << "число отрицательное";
+	//}
+	//else 
+	//{
+	//	cout << "число равно 0";
+	//}
+
+
+
+	//int a;
+	//cout << "Введите число a = ";
+	//cin >> a;
+	//if (a % 2 == 0)
+	//{
+	//	cout << "число четное";
+	//}
+	//else
+	//{
+	//	cout << "число нечетное";
+	//}
+	
+
+	
+	
+	/*int a;
+	cout << "Введите сторону квадрата а =  ";
+	cin >> a;
+	float P = 4 * a;
+	float S = pow(a, 2);
+	cout << "пириметр квадрата = " << P << endl;
+	cout << "площадь квадрата = " << S << endl;*/
+
 
 
 
